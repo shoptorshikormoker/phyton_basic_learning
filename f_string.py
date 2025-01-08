@@ -1,12 +1,13 @@
 # Creating strings
 string1 = 'Hello'
 string2 = "World"
+
 string3 = '''This is
 a multi-line string'''
 
 # Accessing characters
-print(string1[0])  # 'H' (first character)
-print(string2[-1]) # 'd' (last character)
+print(string1[0])  # output: 'H' (first character)
+print(string2[-1]) # output: 'd' (last character)
 
 # Slicing
 print(string1[1:4])  # 'ell'
