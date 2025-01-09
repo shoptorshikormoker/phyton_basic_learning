@@ -12,3 +12,12 @@ print(bool(()))
 print(bool([]))
 print(bool({}))
 
+# Evaluate Values and Variables : The bool() function allows you to evaluate any value, and give you True or False in return,
+print(bool("Hello"))
+print(bool(15))
+
+#Most Values are True : The following will return True:
+
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
